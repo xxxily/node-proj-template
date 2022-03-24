@@ -1,0 +1,51 @@
+{
+  "name": "node-proj-template",
+  "version": "0.0.1",
+  "description": "node-proj-template",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "author": "Blaze",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://github.com/xxxily/node-proj-template.git"
+  },
+  "homepage": "https://github.com/xxxily/node-proj-template",
+  "repository": "https://github.com/xxxily/node-proj-template",
+  "git": "",
+  "bugs": {
+    "url": "https://github.com/xxxily/node-proj-template/issues"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cron": "^1.8.2",
+    "dayjs": "^1.11.0",
+    "fast-glob": "^3.2.11",
+    "fs-extra": "^10.0.1",
+    "glob": "^7.2.0",
+    "lodash": "^4.17.21",
+    "shelljs": "^0.8.5",
+    "simple-git": "^3.4.0",
+    "url-join": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime": "^7.17.8",
+    "babel-eslint": "^10.1.0",
+    "chokidar": "^3.5.3",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.11.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-standard": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  }
+}
